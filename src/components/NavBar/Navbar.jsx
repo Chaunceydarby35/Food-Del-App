@@ -1,6 +1,6 @@
 
 import './NavBar.css'
-import { assets } from '../../assets/assets/assets'
+import {assets } from '../../assets/assets/assets'
 
 const Navbar = () => {
   return (
