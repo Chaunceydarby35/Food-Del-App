@@ -2,10 +2,11 @@
 import './NavBar.css'
 import {assets } from '../../assets/assets/assets'
 
+
 const Navbar = () => {
   return (
-    <div className='Navbar'> 
-        <img src={assets.logo} alt="" className='logo'/>
+    <div className='navbar'> 
+        <img src={assets.logo} alt="logo" className='logo'/>
         <ul className="navbar-menu">
             <li>Home</li>
             <li>Menu</li>
