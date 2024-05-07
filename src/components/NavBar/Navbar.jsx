@@ -2,6 +2,7 @@
 import './NavBar.css'
 import {assets } from '../../assets/assets/assets'
 import { useState } from 'react'
+// import {assets2} from './assets2'
 
 
 const Navbar = () => {
