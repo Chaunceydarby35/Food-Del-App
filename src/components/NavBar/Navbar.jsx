@@ -2,7 +2,7 @@
 import './NavBar.css'
 import {assets } from '../../assets/assets/assets'
 import { useState } from 'react'
-// import {assets2} from './assets2'
+
 
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'> 
-        <img src={assets.logo} alt="logo" className='logo'/>
+        <img src={assets.logo2} alt="logo" className='logo'/>
         <ul className="navbar-menu">
             <li onClick={()=>setMenu("Home")} className={menu==="Home"?"active":""}>Home</li>
             <li onClick={()=>setMenu("Menu")} className={menu==="Menu"?"active":""}>Menu</li>
