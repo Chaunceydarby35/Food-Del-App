@@ -5,7 +5,7 @@ const ExploreMenu = () => {
   return (
     <div className='explore-menu' id='explore-menu'>
         <h1>Explore our menu</h1>
-        <p>Choose from a diverse menu featuring a delectable array of dishes. Our mission is to </p>
+        <p className='explore-menu-text'>Choose from a diverse menu featuring a delectable array of dishes. Our mission is to </p>
     </div>
   )
 }
