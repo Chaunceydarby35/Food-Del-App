@@ -1,4 +1,4 @@
-import AppDowload from '../../components/AppDownload/AppDowload'
+import AppDownload from '../../components/AppDownload/AppDownload'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
 import Header from '../../components/Header/Header'
@@ -14,7 +14,7 @@ const Home = () => {
       <Header/>
       <ExploreMenu category={category} setCategory={setCategory}/>
       <FoodDisplay category={category}/>
-      <AppDowload/>
+      <AppDownload/>
     </div>
   )
 }
