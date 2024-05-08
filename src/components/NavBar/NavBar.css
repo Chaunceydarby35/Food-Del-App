@@ -61,3 +61,9 @@
     top: -8px;
     right: -8px;
 }
+
+.navbar-logo{
+    border-radius: 100px;
+    min-height: 7px;
+    min-width: 7px;
+}

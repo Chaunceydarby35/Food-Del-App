@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import { assets } from '../../assets/assets/assets'
 import './FoodItem.css'
 
