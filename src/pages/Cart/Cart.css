@@ -15,6 +15,10 @@
 
 .cart hr{
     height: 1px;
-    background-color: ;
+    background-color: #e2e2e2;
     border: none;
+}
+
+.cart-items-item .cross{
+    cursor: pointer;
 }
