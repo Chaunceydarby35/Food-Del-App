@@ -1,10 +1,11 @@
 
-/* eslint-disable react/prop-types */
+
 import { useContext} from 'react'
 import { assets } from '../../assets/assets/assets'
 import './FoodItem.css'
 import { StoreContext } from '../../context/StoreContext'
 
+// eslint-disable-next-line react/prop-types
 const FoodItem = ({id,name,price,description,image}) => {
 
 
