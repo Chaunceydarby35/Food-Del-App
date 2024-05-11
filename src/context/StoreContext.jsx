@@ -32,7 +32,7 @@ const [cartItems,setCartItems] = useState({});
         addToCart,
         removeFromCart
     }
-    
+
     return (
         <StoreContext.Provider value={contextValue}>
             {props.children}
